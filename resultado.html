@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Electricity Counter</title>
+        
+    </head>
+
+    <body onload="resultado()">
+        <div>
+            <center>
+                <div class="container">
+                    <div class="centrado">
+                        <p class="grande">Charges to date</p>
+                        <div class="espacio3">
+                            <div class="left">
+                                <div id="fechaAct"></div>
+                            </div>
+                            <div class="right">
+                                <div id="consumo"></div>
+                            </div>
+                        </div>
+                        <div class="tabla">
+                            <table class="table">
+                                <tr>
+                                    <th scope="row">Public Wire</th>
+                                    <td><span id="alumbrado"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Cost of energy consumed</th>
+                                    <td><span id="costLemp"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Fuel adjustment</th>
+                                    <td><span id="ajuste"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Total due</th>
+                                    <td><span id="totalPago"></span></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="espacio3">
+                            <a href="index.html" class="button">Go back to start</a>
+                        </div>
+                </div>
+                </div>
+            </center>
+            <script type="text/javascript" src="js/index.js"></script>
+        </div>
+    </body>
+</html>

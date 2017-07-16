@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Electricity Counter</title>
+    </head>
+
+    <body onload="getFocus2()">
+
+        <div>
+            <center>
+                <div class="container">
+                    <div class="centrado">
+                        <p class="mediano">From left to right, enter the second number</p>
+                        <img src="img/reloj2.png" class="form-group" alt="Sengunda aguja" />
+                        <form class="estilo">
+                            <input onkeypress="return enterKeyPress(event)" placeholder="E.g. 7" id="lectura2" pattern=".{1,}" maxlength="1">
+                            <button type="button" id="enter" onclick="saveLectura2()">Ingresar</button>
+                        </form>
+                    </div>
+                </div>
+            </center>
+            <script type="text/javascript" src="js/index.js"></script>
+        </div>
+    </body>
+</html>
